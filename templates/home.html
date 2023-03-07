@@ -1,7 +1,11 @@
-{{ jsx('<ul>
-    {[...Array(5).keys()].map((number) => <li>{number**2}</li>)}
-</ul>')}}
+{{ jsx('
+    <ul>
+        {[...Array(5).keys()].map((number) => <li>{number**2}</li>)}
+    </ul>
+')}}
 
-{{ jsx('<ul>
-    {[...Array(10).keys()].map((number) => <li>{number**3}</li>)}
-</ul>') }}
+{{ jsx('
+    <ul>
+        {[...Array(10).keys()].map((number) => <li>{number**3}</li>)}
+    </ul>
+') }}
